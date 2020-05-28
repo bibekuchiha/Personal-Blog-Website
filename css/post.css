@@ -1,0 +1,104 @@
+@import url("nav.css");
+@import url("footer.css");
+
+* {
+    line-height: 1.5em;
+    background-color: #1E1C1F;
+    color: #E0DDDE;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+div h3 {
+    margin: 5px;
+}
+
+/* setup main 2 column grid */
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    grid-template-rows: auto;
+    grid-gap: 15px;
+}
+
+/*setup main photo */
+.main-img {
+    width: 100%;
+}
+figure {
+    margin: 10px;
+    border: 5px solid #938c97;
+
+}
+
+/* setup about me column */
+/*avatar*/
+.avatar{
+    margin: 10px;
+    padding: 20px 0;
+    width: 20%;
+    height: 50%;
+}
+
+/*aboutme text block*/
+.about-me-desc{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #938c97;
+    border-radius: 3px;
+}
+
+/*social icon block*/
+.social-ico {
+    margin: 10px;
+    background-color: rgb(235, 240, 245);
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.article {
+    padding: 25px;
+    border: 5px solid #938c97;
+}
+
+.social {
+    padding: 5px;
+    margin: 15px 0;
+    border: 5px solid  #938c97;
+    border-radius: 3px;
+}
+
+ /* Medium Screens */
+ @media (min-width: 600px) and (max-width:1100px) {
+    *{
+        font-size: 16px;
+      }
+    .main_container {
+        display: flex;
+        flex-direction: column;
+      }
+    .avatar {
+        width: 200px;
+    }
+    .social {
+        display: flex;
+    }
+  }
+
+/*small screens*/
+  @media (max-width:601px) {
+    * {
+        font-size: 12px;
+      }
+    .main_container {
+        display: flex;
+        flex-direction: column;
+      }
+      .avatar {
+        width: 100px;
+    }
+    .social {
+        display: flex;
+    }
+  }

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/post.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap" rel="stylesheet">
+    <title>Beebake</title>
+</head>
+
+<body>
+<!-- Header Menu -->
+    <header class="header">
+        <div class="nav-container">
+            <h1 class="logo"><a href="index.html">Go Back</a></h1>
+    
+            <ul class="main-nav">
+                <li><a href="post.html" class="nav-link">Latest Blog</a></li>
+            </ul>
+        </div>
+    </header>
+    <hr>
+<!--main content-->
+<div class="main_container">
+
+    <div class="main_photo">
+        <figure>
+            <img src="https://miro.medium.com/max/1400/1*JYbymHifAk7aQ1pHm_IdMQ.png" class="main-img">
+        </figure>
+    </div>
+
+    <div class="about">
+
+        <div class="article">
+            <h3>About Data Science Process</h3>
+            <p>
+                The CRISP-DM procedure gives an organized way to deal with arranging an Data mining Process. When we get into a weeds of coding, try to take a step back and realize what part of the process you are in, and assure that you remember the question you are trying to answer and what a solution to that question looks like. This process come in handy and is important before implementing any data science project.
+                There are several steps to follow for this process:
+                <ol>
+                <li>Business Understanding</li>
+                <li>Data Understanding</li> 
+                <li>Prepare data</li>
+                <li>Data Modeling</li>
+                <li>Evaluate the results</li>
+                <li>Deploy</li>
+                </ol> 
+            </p>
+            <p>
+                The first two steps o CRISP-DM are
+            </p>
+                <p>
+                    1. Business Understanding
+                    This means understanding the problems and questions you are interested in tackling in context of whatever domain you are working in. 
+                </p> 
+                <p>   
+                    2. Data Understanding
+                    You need to transfer the questions from an understanding of business to data at this stage. You may already have data that could be used to answer the questions, or you may need to gather data to get in on your interest questions.
+                </p>
+            </blockquote>
+            <p>
+                    3. Prepare data
+                   (In general, the most time-consuming phase): data selection; clean data; data construction; data integration; data formatting. In this step, you need to wrangle the data in a way such that you get answers to your questions. The wrangling and cleaning process is said to take 80% of the time of data analysis process.
+            </p>
+            <p>
+                    4. Data Modeling
+                    Pick the actual modelling technique to be used as the first step in modeling. While you may already have chosen a method during the Business Understanding process, this task relates to the common modeling technique e.g. Linear Regression, Decision trees , Clustering or back-propagated neural network generation. When applying several techniques, execute the task separately for each technique.
+            </p>
+            <p>  
+                    5. Evaluate the results
+                    Results are the findings from our wrangling and modeling. They are the answers you found to each of the questions.
+            </p>
+            
+                    6. Deploy
+                    Deploying can happen by shifting the production strategy by using the findings to convince those inside a organization to act on the outcomes. The data scientist plays such an important role in communication.
+            </p>
+        </div>
+
+        <div class="about-me-desc">
+            <img src="data:image/png;base64,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" class="avatar">
+            <div class="about-article">
+                <h3>About Me</h3>
+                <p>
+                    Hi! My name is <b>Bibek</b> and I am a <u>Software engineer.</u> 
+                    Now I am studying at <em>udacity front-end nano degree programm</em> 
+                    to improve and upgrade my skills. &#128578
+                </p>
+            </div>
+        </div>
+
+    
+        <div class="social">
+            <h3>Contact me</h3>
+                <a href="https://www.facebook.com/bibek.shahshankhar/"><img src="ico/FB.svg" class="social-ico"></a>
+                <a href="https://github.com/bibekuchiha"><img src="ico/git.svg" class="social-ico"></a>
+                <a href="https://www.linkedin.com/in/bibek-shah-shankhar/"><img src="ico/linked.svg" class="social-ico"></a>
+        </div>
+    </div>
+
+</div>
+<hr>
+
+<!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="index.html"> Beebake (c) 2020</a>
+            <ul class="footer-nav">
+                <li><a href="post.html" class="nav-link">Latest Blog</a></li>
+                <li><a href="ML.html" class="nav-link">Machine Learning</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+.footer .footer-container {
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin: 10px;
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+ul {
+    margin: 14px;
+}
+
+.footer-nav a {
+    margin: 10px;
+}
+
+a {
+    color: rgb(218, 204, 204);
+    text-decoration: none;
+  }
