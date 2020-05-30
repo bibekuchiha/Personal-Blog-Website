@@ -1,14 +1,14 @@
 # Personal-Blog-Website
 
 ### Click below to view my portfolio website
-[Click Here](https://bibekuchiha.github.io/)
+[Click Here](http://beebake.ml/)
 
-## An attractive portfolio website with lucid information flow for Developers!
+## An attractive blog website for my data science blog!
 
 
 <p align="center"> 
   <kbd>
-  	<a href="https://bibekuchiha.github.io/" target="_blank">
+  	<a href="http://beebake.ml/" target="_blank">
 		<img src="FireShot Capture 002 - Data Science Blog - .png"></img>
 	</a>
   </kbd>
