@@ -1,7 +1,7 @@
 # Personal-Blog-Website
 
 ### Click below to view my portfolio website
-[Click Here](http://beebake.ml/)
+[Click Here](http://bibekshahshankhar.com.np/)
 
 ## An attractive blog website for my data science blog!
 
